@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.bigimage{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 600px;
+    height: 50px;
+    color: #ce449e;
+    display: none;
+    position: center;
+   
+}
+h1{
+    font-size: 70px;
+    text-shadow: rgb(77, 185, 27);
+    position: center;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: middle;
+    top: 25px;
+   
+}
+.logo{
+    text-align: middle;
+    padding: 10px
+}
+.searchbar{
+    padding: 24px 172px 22px 296px;
+    color: rgb(240, 248, 255);
+}
+.bar{
+    display: flex;
+    align-items: center;
+    padding: 28px 5px  ;
+    position: relative;
+
+}
+.inputbar{
+    height: 56px;
+    padding: 24px 72px;
+}
+.addbtn{
+
+    position: relative;
+    display: inline;
+    height: 44px;
+    width: 76px;
+    right: 76px
+
+
+}
+.cal{
+    color: rgb(171, 85, 4);
+    position: relative;
+    width: 29px;
+    right: 178px;
+    height: 29px;
+}
+.list{
+    padding: 10px 71px 20px 71px;
+    position: relative;
+    text-rendering: geometricPrecision;
+    text-underline-position: below;
+    display: inline;
+    display: flow-root;
+}
+.cls{
+    float: right;
+    padding: 2px 5px 2px 5px;
+}
+.rst{
+    position: center;
+    top: 103px;
+    right: 140px;
+    height: 48px;
+}
